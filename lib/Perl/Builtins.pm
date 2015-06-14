@@ -1,7 +1,8 @@
-use 5.008;
-use warnings;
 package Perl::Builtins;
-$Perl::Builtins::VERSION = '0.03';
+$Perl::Builtins::VERSION = '0.04';
+use 5.008;
+use strict;
+use warnings;
 use Pod::Functions '%Type';
 
 #ABSTRACT: A list of all Perl 5 built functions
@@ -23,7 +24,7 @@ Perl::Builtins - A list of all Perl 5 built functions
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =for HTML <a href="https://travis-ci.org/sillymoose/Perl-Builtins"><img src="https://travis-ci.org/sillymoose/Perl-Builtins.svg?branch=master"></a>
 <a href='https://coveralls.io/r/sillymoose/Perl-Builtins'><img src='https://coveralls.io/repos/sillymoose/Perl-Builtins/badge.png' alt='Coverage Status' /></a>
@@ -56,7 +57,7 @@ John D Jones III, Father Chrysostomos
 
 =head1 AUTHOR
 
-David Farrell <sillymoos@cpan.org>
+David Farrell <dfarrell@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
